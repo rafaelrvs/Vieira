@@ -1,0 +1,14 @@
+.container__menu{
+  position: absolute;
+  display: flex;
+  height:100%;
+  width: 50%;
+  gap: 50px;
+  margin-top: 250px;
+  background-color: #433c3c;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  border-radius: 25px;
+}

@@ -1,0 +1,30 @@
+.container__img{
+  gap: 30px;
+  width: auto;
+
+}
+.container__img #img{
+  width: 100%;
+  border-radius: 25px;
+
+}
+
+@media (min-width:1000px) {
+  .container__img #img{
+  
+    height: 450px;
+    width: 100%;
+    border-radius: 25px;
+  }
+  .container__img #img{
+  
+    width: 100vh;
+  }
+}
+@media (max-width:600px) {
+  .container__img #img{ 
+    width: 100vh;
+  }
+  
+  
+}

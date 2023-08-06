@@ -1,0 +1,42 @@
+.menu__topo__content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  grid-template-columns: repeat(auto-fill,minmax(800px,3fr));
+  background-color: rgba(155, 57, 57, 0.573);
+  color: #fff;
+}
+
+
+@media(max-width:600px) {
+  .menu__topo__content{
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+  }
+  #btn__menu{
+    font-size: 15pt;
+    font-weight: 500;
+  
+  }
+  #btn__whatsaap{
+    font-size: 15pt;
+    font-weight: 500;
+  
+  }
+}
+#btn__menu{
+  font-size: 15pt;
+  font-weight: 500;
+}
+#btn__whatsaap{
+  font-size: 15pt;
+  font-weight: 500;
+}
+#input__search{
+  padding: 5px;
+  width: 250px;
+  border-radius: 25px;
+}
